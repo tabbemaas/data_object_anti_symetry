@@ -39,6 +39,10 @@ public class Shapes {
         public void area() {
             System.out.println("the area of this circle is " + Math.PI*Math.pow(this.radius, 2));
         }
+
+        public void perimeter() {
+            System.out.println("the perimeter of this circle is " + Math.PI*this.radius*2);
+        }
     }
 
     public static class Rectangle {
@@ -72,6 +76,10 @@ public class Shapes {
 
         public void area() {
             System.out.println("The area of this " + this.shape + " is " + this.getHeight()*this.getWidth());
+        }
+
+        public void perimeter() {
+            System.out.println("The perimeter of this " + this.shape + " is " + ((this.getHeight()*2)+(this.getWidth()*2)));
         }
     }
 
